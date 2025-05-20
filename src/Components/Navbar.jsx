@@ -44,11 +44,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`fixed z-50 py-4 w-full transition-colors duration-500 ${scrolled ? 'bg-white text-black shadow-md' : 'bg-[#161515] text-white'}`}>
-      <div className='w-[90%] mx-auto'>
+    <nav className={`fixed z-50 py-6 w-full transition-colors duration-500 ${scrolled ? 'bg-white text-black shadow-md' : 'bg-[#161515] text-white'}`}>
+      <div className='w-[80%] mx-auto'>
         <div className="flex items-center justify-between">
           <div className="flex w-[20%]">
-            <img src={Logo} alt="logo" />
+            <img src={Logo} className='h-[45px]' alt="logo" />
           </div>
 
           <div className="w-[60%] flex justify-between items-center">
@@ -60,14 +60,14 @@ const Navbar = () => {
               className="relative w-[13%]"
             >
               <a
-                className={`flex items-center ml-5 w-[110%] py-[3px] pl-[20px] border-2 rounded-[20px] cursor-pointer ${scrolled ? 'border-black text-black' : 'border-[#f5efef] text-white'}`}
+                className={`flex items-center ml-[-10px] w-[110%] py-[3px] pl-[12px] border-2 rounded-[20px] cursor-pointer ${scrolled ? 'border-black text-black' : 'border-[#f5efef] text-white'}`}
               >
                 Category
                 <IoIosArrowDown className={`text-[16px] mt-[3px] ml-[2px] ${scrolled ? 'text-black' : 'text-white'}`} />
               </a>
 
               {isDropdownOpen && (
-                <div className="absolute top-[60px] h-[400px] w-[260px] bg-white shadow-md z-50 transition-all duration-300">
+                <div className="absolute top-[60px] h-[400px] ml-[-30px] w-[260px] bg-white shadow-md z-50 transition-all duration-300">
                   <ul className="overflow-y-auto h-full py-2">
                     {[
                       "Womens’ & Girls’ Fashion",

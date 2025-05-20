@@ -12,15 +12,15 @@ const Item = () => {
                     <div className="flex justify-between">
                         <div className="items-center">
                             <img src={Items} className='ml-[70px]' alt="" />
-                            <p className='text-white p-[30px] font-bold'> Zaawansowana ochrona</p>
+                            <p className='text-white text-[17px] p-[30px] font-bold'> Zaawansowana ochrona</p>
                         </div>
                         <div className="items-center">
                             <img src={Items} className='ml-[70px]' alt="" />
-                            <p className='text-white p-[30px] font-bold'> Zaawansowana ochrona</p>
+                            <p className='text-white text-[17px] p-[30px] font-bold'> Zaawansowana ochrona</p>
                         </div>
                         <div className="items-center">
                             <img src={Items} className='ml-[70px]' alt="" />
-                            <p className='text-white p-[30px] font-bold'> Zaawansowana ochrona</p>
+                            <p className='text-white text-[17px] p-[30px] font-bold'> Zaawansowana ochrona</p>
                         </div>
                     </div>
                 </div>
@@ -28,15 +28,15 @@ const Item = () => {
                     <div className="flex justify-between">
                         <div className="items-center">
                             <img src={Items} className='ml-[70px]' alt="" />
-                            <p className='text-white p-[30px] font-bold'> Zaawansowana ochrona</p>
+                            <p className='text-white text-[17px] p-[30px] font-bold'> Zaawansowana ochrona</p>
                         </div>
                         <div className="items-center">
                             <img src={Items} className='ml-[70px]' alt="" />
-                            <p className='text-white p-[30px] font-bold'> Zaawansowana ochrona</p>
+                            <p className='text-white text-[17px] p-[30px] font-bold'> Zaawansowana ochrona</p>
                         </div>
                         <div className="items-center">
                             <img src={Items} className='ml-[70px]' alt="" />
-                            <p className='text-white p-[30px] font-bold'> Zaawansowana ochrona</p>
+                            <p className='text-white text-[17px] p-[30px] font-bold'> Zaawansowana ochrona</p>
                         </div>
                     </div>
                 </div>

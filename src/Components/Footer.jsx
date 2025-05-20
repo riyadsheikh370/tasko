@@ -1,12 +1,12 @@
 import React from 'react'
-import Logo from "../assets/logo.png"
+import Logo from "../assets/logo1.png"
 import { FaFacebookF, FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import Container from './Container';
 
 const Footer = () => {
     return (
-        <section className='bg-[#161515] pt-[50px]'>
+        <section className='bg-[#0b0b0b] pt-[50px]'>
             <Container>
                 <div className="container mx-auto w-[80%] px-[20px] md:px-[0px]">
                     <div className="main py-[55px] md:flex md:justify-between">
@@ -40,7 +40,7 @@ const Footer = () => {
                                 <li className='text-[16px] text-[white] font-[700] font-sans'>gmalsiam4200@gmail.com</li>
                                 <li className='font-sans text-[16px] font-[400] py-[3px] text-[white] leading-[23px]'>575 Crescent Ave. Quakertown, PA 18951</li>
                             </ul>
-                            <div className="mt-[30px] md:mt-0 w-[100%] md:w-[50%] image">
+                            <div className="mt-[-150px] w-[100%] md:w-[50%] image ml-[620px]">
                                 <img src={Logo} alt="" />
                             </div>
                         </div>
