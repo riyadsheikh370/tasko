@@ -4,6 +4,7 @@ import Banner from './Components/Banner'
 import Item from './Components/Item'
 import Itemone from './Components/Itemone'
 import Footer from './Components/Footer'
+import ScrollToTop from './Components/ScrollToTop'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Item />
       <Itemone />
       <Footer />
+      <ScrollToTop />
     </>
   )
 }
